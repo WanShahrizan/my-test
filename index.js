@@ -13,6 +13,9 @@ function jsonRespone(respone) {
 }
 
 function handleData(data) {
+  let pop = data[0].population;
+  console.log(`The population of Malaysia is ${pop}`);
+  //debugger;
   console.log(data);
 }
 
